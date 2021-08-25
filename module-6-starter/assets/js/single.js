@@ -16,7 +16,7 @@ var getRepoName = function () {
     // if no repo was given, redirect to the homepage
     document.location.replace("./index.html");
   }
-};~ 
+};
 
 var getRepoIssues = function (repo) {
   console.log(repo);
@@ -32,7 +32,7 @@ var getRepoIssues = function (repo) {
         }
       });
     } else {
-      document.location.replace("./index.html")
+      document.location.replace("./index.html");
     }
   });
 };
